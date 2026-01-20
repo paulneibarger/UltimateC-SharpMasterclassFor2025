@@ -5,6 +5,27 @@ Console.WriteLine("[A]dd a TODO");
 Console.WriteLine("[R]emove a TODO");
 Console.WriteLine("[E]xit");
 
-// to keep windows terminal open
-Console.ReadKey();
+string userInput = Console.ReadLine().ToUpper();
 
+if (userInput == "S")
+{
+    PrintSelectedOption("See all TODOs");
+}
+else if (userInput == "A")
+{
+    PrintSelectedOption("Add a TODOs");
+}
+else if (userInput == "R")
+{
+    PrintSelectedOption("Remove a TODOs");
+}
+else if (userInput == "E")
+{
+    PrintSelectedOption("Exit");
+}
+// to keep Windows terminal open
+Console.ReadKey();
+void PrintSelectedOption(string selectedOption)
+{
+    Console.WriteLine($"Selected option: {selectedOption}");
+}
