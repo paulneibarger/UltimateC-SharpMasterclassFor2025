@@ -1,6 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-Console.WriteLine("Hello!");
+﻿Console.WriteLine("Hello!");
 Console.WriteLine("Input the first number:");
 int firstNumber = int.Parse(Console.ReadLine());
 Console.WriteLine("Input the second number:");
