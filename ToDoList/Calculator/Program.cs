@@ -21,6 +21,10 @@ else if (operandType == "M")
 {
     Console.WriteLine($"{firstNumber} * {secondNumber} = {firstNumber * secondNumber}");
 }
+else
+{
+    Console.WriteLine("Invalid choice");
+}
 
 Console.WriteLine("Press any key to close...");
 Console.ReadKey();
