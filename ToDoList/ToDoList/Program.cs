@@ -25,6 +25,8 @@ else if (userInput == "E")
 }
 // to keep Windows terminal open
 Console.ReadKey();
+
+// Method to display what option the user selected
 void PrintSelectedOption(string selectedOption)
 {
     Console.WriteLine($"Selected option: {selectedOption}");
